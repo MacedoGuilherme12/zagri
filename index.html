@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Zagri Construtora | Projeto e construção de casas sob medida em Palhoça (SC)</title>
+  <meta name="description" content="A Zagri projeta e constrói sua casa sob medida, no seu terreno, em Palhoça e na Grande Florianópolis. Nota 5,0 no Google. Peça seu orçamento pelo WhatsApp.">
+  <meta name="theme-color" content="#16323D">
+
+  <!--
+    URL BASE DO SITE
+    A constante BASE_URL fica em script.js (primeira linha do CONFIG).
+    As tags abaixo precisam do endereço escrito por extenso, porque WhatsApp,
+    Facebook e Google leem o HTML sem rodar JavaScript.
+    Para trocar tudo de uma vez depois do deploy:
+      ./trocar-url.sh https://seu-endereco.com.br
+  -->
+  <link rel="canonical" href="https://zagri-construtora.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Zagri Construtora e Incorporadora">
+  <meta property="og:title" content="Você idealiza, a Zagri realiza | Casas sob medida em Palhoça">
+  <meta property="og:description" content="Projeto e construção da sua casa no seu terreno. Nota 5,0 no Google com 25 avaliações.">
+  <meta property="og:url" content="https://zagri-construtora.vercel.app/">
+  <meta property="og:image" content="https://zagri-construtora.vercel.app/img/og-zagri.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fachada de casa entregue pela Zagri, com o morro ao fundo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://zagri-construtora.vercel.app/img/og-zagri.jpg">
+  <link rel="icon" type="image/png" href="img/logo-zagri.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&display=swap">
+  <link rel="preload" as="image" href="img/obra-fachada-morro.webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Zagri Construtora e Incorporadora",
+    "slogan": "Você idealiza, a Zagri realiza",
+    "description": "Projeto e construção de casas sob medida no terreno do cliente, em Palhoça e na Grande Florianópolis.",
+    "url": "https://zagri-construtora.vercel.app/",
+    "image": "https://zagri-construtora.vercel.app/img/og-zagri.jpg",
+    "logo": "https://zagri-construtora.vercel.app/img/logo-zagri.png",
+    "telephone": "+55 48 99607-0194",
+    "email": "zagriconstrutora@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Bom Jesus de Nazaré, 1050, Aririú",
+      "addressLocality": "Palhoça",
+      "addressRegion": "SC",
+      "addressCountry": "BR"
+    },
+    "areaServed": "Grande Florianópolis",
+    "sameAs": [
+      "https://www.instagram.com/zagriconstrutora/",
+      "https://www.facebook.com/zagriconstrutora",
+      "https://www.zagriconstrutora.com.br"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <p class="faixa-rascunho">Rascunho de apresentação para a Zagri Construtora</p>
+
+  <header class="topo">
+    <a class="topo__marca" href="#" aria-label="Zagri Construtora, início">
+      <img src="img/logo-zagri.png" alt="" width="38" height="42">
+      <span>Zagri<small>Construtora e Incorporadora</small></span>
+    </a>
+    <a class="topo__link" href="#orcamento">Pedir orçamento</a>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- 1. ABERTURA -->
+    <section class="abertura" aria-labelledby="lema">
+      <figure class="abertura__foto">
+        <img src="img/obra-fachada-morro.webp" alt="Fachada de casa térrea entregue pela Zagri: volumes brancos e cinza, porta de madeira e gradil preto, com o morro ao fundo" width="1280" height="720" fetchpriority="high">
+        <figcaption>Casa entregue pela Zagri</figcaption>
+      </figure>
+
+      <div class="abertura__texto">
+        <h1 id="lema" class="lema">Você idealiza, a&nbsp;Zagri realiza.</h1>
+
+        <svg class="cota cota--abertura" viewBox="0 0 400 24" preserveAspectRatio="none" aria-hidden="true">
+          <line class="cota__linha" x1="2" y1="12" x2="398" y2="12"/>
+          <line x1="2" y1="2" x2="2" y2="22"/><line x1="398" y1="2" x2="398" y2="22"/>
+          <line x1="0" y1="16" x2="8" y2="8"/><line x1="394" y1="16" x2="402" y2="8"/>
+        </svg>
+        <p class="cota__rotulo" aria-hidden="true"><span>sua ideia</span><span>chave na mão</span></p>
+
+        <p class="abertura__sub">Projetamos e construímos a sua casa sob medida, no seu terreno, em Palhoça e na Grande Florianópolis.</p>
+
+        <a class="botao botao--principal" href="#orcamento">Quero construir minha casa</a>
+
+        <a class="selo-google" href="#avaliacoes">
+          <span class="estrelas" aria-hidden="true">
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.8l-5.2 2.8 1-5.8L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.8l-5.2 2.8 1-5.8L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.8l-5.2 2.8 1-5.8L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.8l-5.2 2.8 1-5.8L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.8l-5.2 2.8 1-5.8L1.5 7.7l5.9-.8z"/></svg>
+          </span>
+          <span><strong>5,0 no Google</strong>, com 25 avaliações</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 2. CASAS ENTREGUES -->
+    <section class="secao secao--obras" id="obras" aria-labelledby="t-obras">
+      <div class="secao__cabeca">
+        <h2 id="t-obras">Casas que já entregamos</h2>
+        <p>Fotos reais de obras da Zagri. Toque em uma foto para ver maior.</p>
+      </div>
+
+      <ul class="galeria" data-galeria="obras">
+        <li class="galeria__item galeria__item--largo">
+          <button type="button" class="galeria__botao" data-full="img/obra-casa-telhado.webp" data-legenda="Casa térrea com telhado cerâmico e varanda, entregue pela Zagri">
+            <img src="img/obra-casa-telhado-800.webp" alt="Casa térrea com telhado cerâmico cinza, varanda e portão preto" width="800" height="450" loading="lazy" decoding="async">
+          </button>
+        </li>
+        <li class="galeria__item galeria__item--alto">
+          <button type="button" class="galeria__botao" data-full="img/obra-ripado.webp" data-legenda="Fachada com ripado de madeira, beiral em balanço e pele de vidro">
+            <img src="img/obra-ripado-800.webp" alt="Detalhe de fachada com ripado de madeira, beiral em balanço e grandes vidros" width="518" height="848" loading="lazy" decoding="async">
+          </button>
+        </li>
+        <li class="galeria__item galeria__item--alto">
+          <button type="button" class="galeria__botao" data-full="img/obra-quintal.webp" data-legenda="Quintal gramado e portas de vidro do fundo da casa">
+            <img src="img/obra-quintal-800.webp" alt="Quintal gramado nos fundos da casa, com portas de correr de vidro preto" width="544" height="848" loading="lazy" decoding="async">
+          </button>
+        </li>
+        <li class="galeria__item galeria__item--alto">
+          <button type="button" class="galeria__botao" data-full="img/obra-gourmet.webp" data-legenda="Área de churrasqueira coberta olhando para o quintal ao entardecer">
+            <img src="img/obra-gourmet-800.webp" alt="Área coberta com churrasqueira revestida de madeira, olhando para o quintal ao pôr do sol" width="510" height="848" loading="lazy" decoding="async">
+          </button>
+        </li>
+        <li class="galeria__item">
+          <button type="button" class="galeria__botao" data-full="img/obra-esquina.webp" data-legenda="Casa de linhas retas com caixilhos pretos e porta de madeira">
+            <img src="img/obra-esquina.webp" alt="Casa branca de linhas retas, com caixilhos pretos e porta de madeira, vista em ângulo" width="680" height="394" loading="lazy" decoding="async">
+          </button>
+        </li>
+        <li class="galeria__item">
+          <button type="button" class="galeria__botao" data-full="img/obra-casa-branca.webp" data-legenda="Casa térrea com fachada em textura branca e detalhe em madeira">
+            <img src="img/obra-casa-branca.webp" alt="Casa térrea branca com painel texturizado, detalhe em madeira e gradil branco" width="610" height="316" loading="lazy" decoding="async">
+          </button>
+        </li>
+        <li class="galeria__item galeria__item--vazio">
+          <div class="foto-vazia" role="img" aria-label="Espaço reservado para foto de obra da Zagri">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span>foto de obra da Zagri aqui</span>
+          </div>
+        </li>
+      </ul>
+
+      <div class="projetos">
+        <h3>Projetos em 3D</h3>
+        <p class="projetos__nota">Imagens de projeto, feitas antes da obra. Os dados de cada casa vêm do site atual da Zagri.</p>
+        <ul class="projetos__lista" data-galeria="projetos">
+          <li class="projeto">
+            <button type="button" class="galeria__botao" data-full="img/3d-mirante-fachada.webp" data-legenda="Casa Mirante da Guarda (imagem 3D do projeto)">
+              <img src="img/3d-mirante-fachada-800.webp" alt="Imagem 3D da Casa Mirante da Guarda" width="800" height="450" loading="lazy" decoding="async">
+              <span class="etiqueta-3d">Projeto 3D</span>
+            </button>
+            <h4>Casa Mirante da Guarda</h4>
+            <p>140 m², 3 quartos (1 suíte e 2 demi-suítes), piscina e lounge com lareira. Entregue em novembro de 2024.</p>
+          </li>
+          <li class="projeto">
+            <button type="button" class="galeria__botao" data-full="img/3d-viver-fachada.webp" data-legenda="Casa Viver (imagem 3D do projeto)">
+              <img src="img/3d-viver-fachada-800.webp" alt="Imagem 3D da Casa Viver" width="800" height="450" loading="lazy" decoding="async">
+              <span class="etiqueta-3d">Projeto 3D</span>
+            </button>
+            <h4>Casa Viver</h4>
+            <p>120 m², pé-direito duplo com pele de vidro, 3 quartos com suíte e closet. Entregue em agosto de 2024.</p>
+          </li>
+          <li class="projeto">
+            <button type="button" class="galeria__botao" data-full="img/3d-mata-gourmet.webp" data-legenda="Casa da Mata, área gourmet e piscina (imagem 3D do projeto)">
+              <img src="img/3d-mata-gourmet-800.webp" alt="Imagem 3D da área gourmet com piscina da Casa da Mata" width="800" height="450" loading="lazy" decoding="async">
+              <span class="etiqueta-3d">Projeto 3D</span>
+            </button>
+            <h4>Casa da Mata</h4>
+            <p>120 m², pé-direito duplo, 3 quartos, piscina e jardim de inverno, no Novo Bela Vista. Entregue em outubro de 2023.</p>
+          </li>
+          <li class="projeto">
+            <button type="button" class="galeria__botao" data-full="img/3d-elegans-fachada.webp" data-legenda="Casa Elegans (imagem 3D do projeto)">
+              <img src="img/3d-elegans-fachada-800.webp" alt="Imagem 3D da Casa Elegans" width="800" height="450" loading="lazy" decoding="async">
+              <span class="etiqueta-3d">Projeto 3D</span>
+            </button>
+            <h4>Casa Elegans</h4>
+            <p>165 m², 3 quartos com suíte e closet, piscina, no loteamento Green Village.</p>
+          </li>
+          <li class="projeto">
+            <button type="button" class="galeria__botao" data-full="img/3d-descanso-fachada.webp" data-legenda="Casa Descanso (imagem 3D do projeto)">
+              <img src="img/3d-descanso-fachada-800.webp" alt="Imagem 3D da Casa Descanso" width="800" height="450" loading="lazy" decoding="async">
+              <span class="etiqueta-3d">Projeto 3D</span>
+            </button>
+            <h4>Casa Descanso</h4>
+            <p>154 m², 3 quartos com suíte e closet, piscina e lareira, no Green Village.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. COMO FUNCIONA -->
+    <section class="secao secao--processo" id="como-funciona" aria-labelledby="t-processo">
+      <div class="secao__cabeca">
+        <h2 id="t-processo">Como funciona</h2>
+        <p>Do primeiro café até a entrega da chave, e depois dela.</p>
+      </div>
+
+      <div class="processo">
+        <ol class="etapas" data-config="etapas"><!-- preenchido pelo CONFIG em script.js --></ol>
+
+        <aside class="processo__lado">
+          <div class="foto-vazia foto-vazia--alta" role="img" aria-label="Espaço reservado para foto de obra da Zagri em andamento">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span>foto de obra da Zagri aqui<br><small>(obra em andamento)</small></span>
+          </div>
+          <dl class="fatos">
+            <div><dt>Onde atendemos</dt><dd data-config="regioes"></dd></div>
+            <div><dt>Tempo médio de obra</dt><dd data-config="prazoMedio"></dd></div>
+            <div><dt>Financiamento</dt><dd data-config="financiamento"></dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 4. POR QUE A ZAGRI -->
+    <section class="secao secao--motivos" id="por-que" aria-labelledby="t-motivos">
+      <div class="secao__cabeca">
+        <h2 id="t-motivos">Por que construir com a Zagri</h2>
+        <p>Quatro coisas que os clientes repetem nas avaliações.</p>
+      </div>
+
+      <ul class="motivos">
+        <li class="motivo">
+          <svg class="motivo__icone" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="6" width="24" height="22" rx="2"/><path d="M4 12h24M10 3v6M22 3v6M11 20l4 4 7-8"/></svg>
+          <h3>Prazo combinado é prazo cumprido</h3>
+          <p>O cronograma da sua obra é apresentado antes de começar, e os clientes citam o cumprimento rigoroso das datas.</p>
+        </li>
+        <li class="motivo">
+          <svg class="motivo__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 28V12l12-8 12 8v16z"/><path d="M12 28v-9h8v9"/><path d="M4 16h24" stroke-dasharray="2 2.5"/></svg>
+          <h3>Acabamento que os instaladores notam</h3>
+          <p>Montadores de móveis e instaladores que entram nas casas comentam a qualidade dos materiais e do acabamento.</p>
+        </li>
+        <li class="motivo">
+          <svg class="motivo__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 4h13l5 5v19H7z"/><path d="M20 4v5h5M11 15h10M11 19h10M11 23h6"/></svg>
+          <h3>Transparência em cada etapa</h3>
+          <p>Orçamento, projeto e andamento da obra conversados às claras. Equipe descrita como capacitada, transparente e honesta.</p>
+        </li>
+        <li class="motivo">
+          <svg class="motivo__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M13 19l-6 6M7 25l-2-2M19 13a6 6 0 1 0-6 6"/><path d="M19 13l9-9M24 8l3 3M21 11l2 2"/></svg>
+          <h3>Pós-venda que atende</h3>
+          <p>Depois da entrega da chave a Zagri continua por perto. Tem cliente que diz que virou amigo da equipe.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 5. AVALIAÇÕES -->
+    <section class="secao secao--avaliacoes" id="avaliacoes" aria-labelledby="t-avaliacoes">
+      <div class="nota">
+        <p class="nota__numero" aria-hidden="true">5,0</p>
+        <div>
+          <h2 id="t-avaliacoes">O que dizem os clientes</h2>
+          <p class="nota__detalhe"><span class="sr">Nota 5,0 de 5 </span>no Google, com 25 avaliações.</p>
+        </div>
+      </div>
+
+      <ul class="depoimentos">
+        <li>
+          <blockquote>
+            <p>Equipe capacitada, transparente e honesta do começo ao fim, e os prazos combinados foram cumpridos à risca.</p>
+          </blockquote>
+          <p class="depoimentos__fonte">Resumo de avaliação no Google</p>
+        </li>
+        <li>
+          <blockquote>
+            <p>O acabamento chama atenção: até o montador de móveis e os instaladores comentaram a qualidade dos materiais.</p>
+          </blockquote>
+          <p class="depoimentos__fonte">Resumo de avaliação no Google</p>
+        </li>
+        <li>
+          <blockquote>
+            <p>Atenção de verdade no pós-venda. A relação ficou tão próxima que nos tornamos bons amigos.</p>
+          </blockquote>
+          <p class="depoimentos__fonte">Resumo de avaliação no Google</p>
+        </li>
+      </ul>
+      <a class="link-google" data-config-href="googleReviewsUrl" href="#" target="_blank" rel="noopener">Ver todas as avaliações no Google</a>
+    </section>
+
+    <!-- 6. ORÇAMENTO / CARIMBO -->
+    <section class="secao secao--orcamento" id="orcamento" aria-labelledby="t-orcamento">
+      <div class="secao__cabeca">
+        <h2 id="t-orcamento">Monte a ficha da sua casa</h2>
+        <p>Responda em 1 minuto. Ao enviar, o WhatsApp abre com tudo organizado para a equipe da Zagri responder já sabendo do seu projeto.</p>
+      </div>
+
+      <form class="carimbo" id="form-orcamento" novalidate>
+        <div class="carimbo__titulo">
+          <img src="img/logo-zagri.png" alt="" width="30" height="33" loading="lazy">
+          <p><strong>Zagri Construtora</strong><span>Ficha de projeto residencial</span></p>
+          <p class="carimbo__folha"><span>Folha</span><strong>01/01</strong></p>
+        </div>
+
+        <fieldset class="campo campo--largo" data-campo="terreno">
+          <legend>Você já tem terreno?</legend>
+          <div class="opcoes">
+            <label><input type="radio" name="terreno" value="Sim, já tenho"><span>Sim</span></label>
+            <label><input type="radio" name="terreno" value="Não tenho"><span>Não</span></label>
+            <label><input type="radio" name="terreno" value="Estou procurando"><span>Estou procurando</span></label>
+          </div>
+          <p class="campo__erro" id="erro-terreno" aria-live="polite"></p>
+        </fieldset>
+
+        <div class="campo campo--largo" data-campo="local">
+          <label for="local" id="rotulo-local">Bairro ou cidade do terreno</label>
+          <input id="local" name="local" type="text" autocomplete="address-level2" placeholder="Ex.: Pedra Branca, Palhoça" aria-describedby="erro-local">
+          <p class="campo__erro" id="erro-local" aria-live="polite"></p>
+        </div>
+
+        <fieldset class="campo" data-campo="quartos">
+          <legend>Quantos quartos?</legend>
+          <div class="opcoes opcoes--compactas">
+            <label><input type="radio" name="quartos" value="2 quartos"><span>2</span></label>
+            <label><input type="radio" name="quartos" value="3 quartos"><span>3</span></label>
+            <label><input type="radio" name="quartos" value="4 quartos ou mais"><span>4+</span></label>
+            <label><input type="radio" name="quartos" value="Ainda não sei"><span>Não sei</span></label>
+          </div>
+          <p class="campo__erro" id="erro-quartos" aria-live="polite"></p>
+        </fieldset>
+
+        <div class="campo" data-campo="area">
+          <label for="area">Tamanho aproximado <small>(opcional)</small></label>
+          <div class="com-sufixo">
+            <input id="area" name="area" type="text" inputmode="numeric" placeholder="Ex.: 150" aria-describedby="erro-area">
+            <span aria-hidden="true">m²</span>
+          </div>
+          <p class="campo__erro" id="erro-area" aria-live="polite"></p>
+        </div>
+
+        <div class="campo campo--largo" data-campo="investimento">
+          <label for="investimento">Quanto pretende investir na construção?</label>
+          <select id="investimento" name="investimento" aria-describedby="erro-investimento">
+            <option value="">Escolha uma faixa</option>
+            <!-- faixas vindas do CONFIG -->
+          </select>
+          <p class="campo__erro" id="erro-investimento" aria-live="polite"></p>
+        </div>
+
+        <fieldset class="campo campo--largo" data-campo="inicio">
+          <legend>Quando pretende começar?</legend>
+          <div class="opcoes">
+            <label><input type="radio" name="inicio" value="Em até 6 meses"><span>Até 6 meses</span></label>
+            <label><input type="radio" name="inicio" value="Em até 1 ano"><span>Até 1 ano</span></label>
+            <label><input type="radio" name="inicio" value="Só pesquisando por enquanto"><span>Só pesquisando</span></label>
+          </div>
+          <p class="campo__erro" id="erro-inicio" aria-live="polite"></p>
+        </fieldset>
+
+        <fieldset class="campo campo--largo" data-campo="pagamento">
+          <legend>Como pretende pagar?</legend>
+          <div class="opcoes">
+            <label><input type="radio" name="pagamento" value="À vista"><span>À vista</span></label>
+            <label><input type="radio" name="pagamento" value="Financiamento"><span>Financiamento</span></label>
+            <label><input type="radio" name="pagamento" value="Ainda não sei"><span>Ainda não sei</span></label>
+          </div>
+          <p class="campo__erro" id="erro-pagamento" aria-live="polite"></p>
+        </fieldset>
+
+        <div class="campo campo--largo" data-campo="nome">
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Como podemos te chamar?" aria-describedby="erro-nome">
+          <p class="campo__erro" id="erro-nome" aria-live="polite"></p>
+        </div>
+
+        <div class="carimbo__rodape">
+          <p class="carimbo__resumo" id="resumo-erros" role="alert"></p>
+          <button class="botao botao--whats" type="submit">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.8l5.1-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8.9c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.1 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.2-.2-.5-.3z"/></svg>
+            Enviar ficha pelo WhatsApp
+          </button>
+          <p class="carimbo__nota">Abre o WhatsApp da Zagri com a mensagem pronta. Nada é enviado sem você tocar em enviar lá.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- 7. RODAPÉ -->
+  <footer class="rodape">
+    <div class="rodape__marca">
+      <img src="img/logo-zagri.png" alt="Zagri Construtora" width="56" height="61" loading="lazy">
+      <p>Você idealiza, a Zagri realiza.</p>
+    </div>
+    <address class="rodape__contato">
+      <a href="https://maps.google.com/?q=Av.+Bom+Jesus+de+Nazar%C3%A9,+1050,+Ariri%C3%BA,+Palho%C3%A7a+SC" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <span>Av. Bom Jesus de Nazaré, 1050<br>Aririú, Palhoça (SC)</span>
+      </a>
+      <a href="mailto:zagriconstrutora@gmail.com">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg>
+        <span>zagriconstrutora@gmail.com</span>
+      </a>
+      <a data-whats href="https://wa.me/5548996070194">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg>
+        <span>(48) 99607-0194</span>
+      </a>
+    </address>
+    <ul class="rodape__redes">
+      <li><a href="https://www.instagram.com/zagriconstrutora/" target="_blank" rel="noopener" aria-label="Instagram da Zagri">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a></li>
+      <li><a href="https://www.facebook.com/zagriconstrutora" target="_blank" rel="noopener" aria-label="Facebook da Zagri">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a></li>
+      <li><a href="https://www.zagriconstrutora.com.br" target="_blank" rel="noopener" aria-label="Site atual da Zagri">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></a></li>
+    </ul>
+    <p class="rodape__legal">Zagri Construtora e Incorporadora. Rascunho de apresentação, não publicado oficialmente.</p>
+  </footer>
+
+  <a class="whats-flutuante" data-whats href="https://wa.me/5548996070194" target="_blank" rel="noopener" aria-label="Conversar com a Zagri no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.8l5.1-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8.9c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.1 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+
+  <!-- Lightbox -->
+  <dialog class="ampliar" id="ampliar" aria-label="Foto ampliada">
+    <figure>
+      <img src="" alt="">
+      <figcaption></figcaption>
+    </figure>
+    <button type="button" class="ampliar__nav ampliar__nav--ant" aria-label="Foto anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button type="button" class="ampliar__nav ampliar__nav--prox" aria-label="Próxima foto">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <button type="button" class="ampliar__fechar" aria-label="Fechar foto">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
